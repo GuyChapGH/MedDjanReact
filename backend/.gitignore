@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django local settings and sensitive data
+.env
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+db.sqlite3-shm
+db.sqlite3-wal
+
+# Resources / User uploads
+media/
+staticfiles/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
